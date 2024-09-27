@@ -86,7 +86,7 @@ export default {
 								foreground: "hsl(239 5% 90%)",
 							},
 							primary: {
-								DEFAULT: "hsl(239 82% 56%)",
+								DEFAULT: "hsl(239 62% 66%)",
 								foreground: "hsl(0 0% 100%)",
 							},
 							secondary: {

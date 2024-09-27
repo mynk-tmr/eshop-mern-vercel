@@ -4,6 +4,7 @@ import { Banner } from "@/components/organisms/banner";
 import { Categories } from "@/components/organisms/categories";
 import { FeaturedSection } from "@/components/organisms/featured";
 import { Header } from "@/components/organisms/header";
+import { Navbar } from "./components/molecules/navbar";
 
 export const App = () => {
 	return (
@@ -12,6 +13,7 @@ export const App = () => {
 			<Banner />
 			<Categories />
 			<FeaturedSection />
+			<Navbar />
 		</main>
 	);
 };

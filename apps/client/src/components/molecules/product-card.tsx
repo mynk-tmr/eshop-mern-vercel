@@ -51,13 +51,13 @@ const Information = () => {
 const Footer = () => {
 	return (
 		<div className="flex *:grow gap-2">
-			<Button className="text-xs">
-				<ShoppingBag className="size-5" />
-				<span className="sr-only sm:not-sr-only">Add to cart</span>
+			<Button className="text-xs dark:bg-red-800">
+				<ShoppingBag className="size-4 sm:size-5" />
+				<span>Add to cart</span>
 			</Button>
-			<Button className="text-xs bg-red-400 hocus:!bg-red-700">
-				<Heart className="size-5" />
-				<span className="sr-only sm:not-sr-only">Add to wishlist</span>
+			<Button className="text-xs bg-red-400">
+				<Heart className="size-4 sm:size-5" />
+				<span className="sr-only">Add to wishlist</span>
 			</Button>
 		</div>
 	);

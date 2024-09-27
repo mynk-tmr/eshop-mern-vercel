@@ -3,11 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+	:root {
+		@apply !overflow-x-hidden w-screen;
+	}
 	body {
 		font-family: "Rubik Variable", sans-serif;
-		@apply p-4 md:px-7 bg-background text-foreground min-h-screen;
+		@apply p-4 md:px-7 bg-background text-foreground overflow-x-hidden;
 	}
-
+	#root {
+		@apply min-h-screen overflow-hidden pb-20
+	}
 	* {
 		@apply border-border transition-all;
 	}
@@ -16,5 +21,8 @@
 @layer utilities {
 	.flex-between {
 		@apply flex justify-between items-center;
+	}
+	.overflow-children {
+		@apply flex *:shrink-0 overflow-x-auto gap-3
 	}
 }

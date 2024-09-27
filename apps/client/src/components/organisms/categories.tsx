@@ -20,7 +20,7 @@ export const Categories = () => {
 	return (
 		<section>
 			<BrowseTitle>Categories</BrowseTitle>
-			<div className="flex items-center gap-3 *:shrink-0 mt-4 overflow-x-auto">
+			<div className="overflow-children mt-4">
 				{categories.map((it) => (
 					<div key={it.value} className="grid place-items-center">
 						<IconButton>
