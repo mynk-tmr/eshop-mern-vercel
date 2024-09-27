@@ -2,16 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: 'Rubik';
-  font-display: swap;
-  font-weight: 400;
-  src: url('../assets/fonts/rubik-webfont.woff2') format('woff2');
-}
- */
 @layer base {
 	body {
-		font-family: "Rubik", system-ui, sans-serif;
+		font-family: "Rubik Variable", sans-serif;
 	}
 
 	:root {
