@@ -1,0 +1,1 @@
+.env files should be placed in respective workspaces
