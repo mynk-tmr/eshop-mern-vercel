@@ -1,7 +1,9 @@
+import plugin from "tailwindcss/plugin";
+
 /** @type {import('tailwindcss').Config} */
 export default {
 	darkMode: ["class"],
-	content: [],
+	content: ["./src/**/*.{js,ts,jsx,tsx,mdx}", "./index.html"],
 	theme: {
 		extend: {
 			borderRadius: {
@@ -53,5 +55,10 @@ export default {
 			},
 		},
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("tailwindcss-animate"),
+		plugin(({ addVariant }) => {
+			addVariant("hocus", ["&:hover", "&:focus-visible", "&:active"]);
+		}),
+	],
 };
