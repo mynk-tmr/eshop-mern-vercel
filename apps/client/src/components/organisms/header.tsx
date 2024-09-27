@@ -11,9 +11,9 @@ export const Header = () => {
 					alt="user-avatar"
 					fallback="M"
 				/>
-				<span className="text-sm">
+				<span className="text-sm text-muted-foreground">
 					Welcome back <br />
-					<strong>Mayank</strong>
+					<strong className="text-foreground">Mayank</strong>
 				</span>
 			</div>
 			<div>
