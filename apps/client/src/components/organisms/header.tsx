@@ -1,5 +1,6 @@
 import { Avatar } from "@/components/atoms/avatar";
 import { IconButton } from "@/components/atoms/buttons";
+import { useTheme } from "@/lib/theme-setter";
 import { BellIcon, MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
 export const Header = () => {
@@ -27,10 +28,11 @@ export const Header = () => {
 };
 
 const ThemeButton = () => {
+	const { isDark, toggleTheme } = useTheme();
+	const Icon = isDark ? MoonIcon : SunIcon;
 	return (
-		<IconButton>
-			<SunIcon className="size-5" />
-			{/* <MoonIcon className="size-5" /> */}
+		<IconButton onClick={toggleTheme}>
+			<Icon className="size-5" />
 		</IconButton>
 	);
 };

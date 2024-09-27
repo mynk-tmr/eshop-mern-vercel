@@ -12,6 +12,7 @@ export const Avatar = (props: Props) => {
 	return (
 		<div className="rounded-full grid place-items-center size-14 bg-yellow-200 *:rounded-full">
 			{error && <strong>{fallback}</strong>}
+			{/* biome-ignore lint/a11y/useAltText: alt is in rest */}
 			{!error && <img {...rest} onError={() => setError(true)} />}
 		</div>
 	);
