@@ -66,10 +66,16 @@
 
 @layer base {
 	* {
-		@apply border-border;
+		@apply border-border transition-all;
 	}
 
 	body {
 		@apply p-4 md:px-7 bg-background text-foreground min-h-screen;
+	}
+}
+
+@layer utilities {
+	.flex-between {
+		@apply flex justify-between items-center;
 	}
 }

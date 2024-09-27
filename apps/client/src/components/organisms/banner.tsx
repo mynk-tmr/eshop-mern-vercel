@@ -56,7 +56,7 @@ export const Banner = () => {
 	}
 
 	return (
-		<section className="my-6">
+		<section>
 			<Slide
 				{...{
 					update,
