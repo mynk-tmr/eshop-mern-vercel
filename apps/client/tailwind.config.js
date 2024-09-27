@@ -12,6 +12,7 @@ export default {
 				sm: "calc(var(--radius) - 4px)",
 			},
 			colors: {
+				attention: "hsl(var(--attention))",
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
 				card: {

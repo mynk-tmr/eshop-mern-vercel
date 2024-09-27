@@ -24,6 +24,7 @@
 		--accent-foreground: 239 5% 15%;
 		--destructive: 0 50% 50%;
 		--destructive-foreground: 239 5% 90%;
+		--attention: 11 91% 35%;
 		--border: 239 20% 82%;
 		--input: 239 20% 50%;
 		--ring: 239 82% 56%;
@@ -52,6 +53,7 @@
 		--accent-foreground: 239 5% 90%;
 		--destructive: 0 50% 50%;
 		--destructive-foreground: 239 5% 90%;
+		--attention: 50 98% 64%;
 		--border: 239 20% 50%;
 		--input: 239 20% 50%;
 		--ring: 239 82% 56%;
