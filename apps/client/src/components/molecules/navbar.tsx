@@ -10,7 +10,7 @@ const config = [
 
 export const Navbar = () => {
 	return (
-		<nav className="flex-between fixed bottom-0 z-50 mx-auto bg-green-500 dark:bg-primary font-medium rounded-lg">
+		<nav className="flex-between fixed bottom-0 left-0 right-0 z-50 bg-green-200 shadow-md dark:bg-primary font-medium rounded-lg">
 			{config.map((it) => (
 				<span key={it.value} className="py-2 px-4 grid place-items-center">
 					<it.icon className="size-5" strokeWidth={3} />

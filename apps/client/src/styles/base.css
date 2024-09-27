@@ -3,15 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-	:root {
-		@apply !overflow-x-hidden w-screen;
-	}
 	body {
 		font-family: "Rubik Variable", sans-serif;
-		@apply p-4 md:px-7 bg-background text-foreground overflow-x-hidden;
-	}
-	#root {
-		@apply min-h-screen overflow-hidden pb-20
+		@apply p-4 md:px-7 pb-20 bg-background text-foreground overflow-x-hidden;
 	}
 	* {
 		@apply border-border transition-all;

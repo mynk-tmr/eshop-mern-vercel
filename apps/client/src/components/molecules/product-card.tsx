@@ -20,7 +20,7 @@ export const ProductCard = () => {
 const CHeader = () => {
 	return (
 		<div className="flex-between">
-			<span className="text-xs bg-green-200 text-green-800 rounded-sm px-2 py-1">
+			<span className="text-xs bg-pink-200 text-pink-800 rounded-sm px-2 py-1">
 				Nearby Seller
 			</span>
 			<IconButton>
